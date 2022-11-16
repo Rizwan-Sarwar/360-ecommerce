@@ -956,7 +956,8 @@ a#nav__btn__Inside {
 }
 
 .mostPopular__product select.product__show {
-    width: 50px;
+    width: 80px;
+    text-align: center;
 }
 
 .category__product {
@@ -998,7 +999,7 @@ a.filter__btn img {
     background-color: black;
     z-index: 9;
     opacity: .8;
-    transition: .2s ease-in-out;
+    transition: .6s ease-in-out;
     margin: auto;
     right: 0%;
     overflow: hidden;
@@ -1056,7 +1057,7 @@ a.filter__btn img {
 
 .productImage__wrap .more__images a {
     border: 2px solid transparent;
-    display: inline-block;
+    display: block;
 }
 
 .productImage__wrap .more__images a:focus {
@@ -1068,7 +1069,7 @@ a.filter__btn img {
 }
 
 .product__detail .product__code {
-    margin: 0px 0px 7px;
+    margin: 0px 0px 10px;
 }
 
 .product__detail .product__code p {
@@ -1083,7 +1084,7 @@ a.filter__btn img {
 }
 
 .product__detail .product__name {
-    margin: 0px 0px 7px;
+    margin: 0px 0px 12px;
 }
 
 .product__detail .product__name h3 {
@@ -1094,11 +1095,11 @@ a.filter__btn img {
 }
 
 .product__detail .product__price {
-    margin: 15px 0px;
+    margin: 35px 0px;
 }
 
 .product__detail .product__price span {
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 500;
     color: black;
 }
@@ -1107,10 +1108,11 @@ a.filter__btn img {
     color: rgb(0 0 0 / 40%);
     margin: 0px 12px 0px 0px;
     text-decoration: line-through;
+    font-size: 18px;
 }
 
 .product__detail .product__availability {
-    margin: 15px 0px;
+    margin: 0px 0px;
 }
 
 .product__detail .product__availability p {
@@ -1128,18 +1130,19 @@ a.filter__btn img {
 }
 
 .product__detail .short__description {
-    margin: 10px 0px;
+    margin: 12px 0px 0px;
 }
 
 .product__detail .short__description p {
-    line-height: 1.7;
+    line-height: 21px;
     color: rgb(0 0 0 / 60%);
-    font-weight: 500;
+    font-weight: 400;
     word-spacing: 1px;
+    font-size: 15px;
 }
 
 .product__detail .product__spec {
-    margin: 40px 0px;
+    margin: 45px 0px 40px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -1147,10 +1150,10 @@ a.filter__btn img {
 
 .product__detail .product__spec .field label {
     text-transform: capitalize;
-    font-size: 17px;
-    font-weight: 600;
-    color: rgb(0 0 0 / 90%);
-    margin: 0px 0px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(0 0 0 / 80%);
+    margin: 0px 0px 5px;
     display: block;
 }
 
@@ -1220,9 +1223,9 @@ a.filter__btn img {
 }
 
 .review__wrap .review__count p {
-    font-size: 16px;
+    font-size: 13px;
     color: rgb(0 0 0 / 55%);
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: .5px;
 }
 
@@ -1264,7 +1267,7 @@ a.filter__btn img {
 
 .product__more__details .tab {
     text-align: center;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid #efefef;
 }
 
 
@@ -1356,7 +1359,7 @@ div.tabcontent .comment__box {
     padding: 0px 0px 25px;
     margin: 0px 0px 20px;
     gap: 5px;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid #efefef;
 }
 
 div.tabcontent .comment__box .rate {
@@ -1401,8 +1404,8 @@ div.tabcontent .comment__box p.commentator__detail span.date__time {
 
 .tabcontent .review__ratio h2 {
     text-align: center;
-    font-size: 18px;
-    margin: 0px 0px 50px;
+    font-size: 14px;
+    margin: 0px 0px 34px;
 }
 
 .ratio {
@@ -1462,7 +1465,7 @@ div.tabcontent .comment__box p.commentator__detail span.date__time {
 }
 
 svg.bi.bi-star {
-    stroke: #d6d6d6;
+    stroke: rgb(241 241 241);
 }
 
 svg.bi.bi-star-fill {
@@ -1471,7 +1474,7 @@ svg.bi.bi-star-fill {
 }
 
 .review__star svg {
-    margin: 0px 8px 0px 0px;
+    margin: 0px 2px 0px 0px;
 }
 
 input#product__quantity {
@@ -1587,4 +1590,8 @@ div#reviews .ratio {
 
 .midbar .icon a.searchbar__icon {
     display: none;
+}
+
+div#specification .box:last-child {
+    margin: 0px 0px 0px;
 }
