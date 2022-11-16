@@ -1,9 +1,12 @@
 // owl carousel
 // hero
 $('.owl-heroSlide').owlCarousel({
-        loop: false,
+        loop: true,
         nav: false,
         items: 1,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        dots: false,
     })
     // category
 $('.owl-categorySlide').owlCarousel({
@@ -55,7 +58,7 @@ $('.owl-productSlide').owlCarousel({
     })
     // promo
 $('.owl-promoSlide').owlCarousel({
-        loop: false,
+        loop: true,
         margin: 10,
         nav: false,
         items: 2,
