@@ -43,6 +43,17 @@
         font-size: 18px;
         margin: 42px;
     }
+    .product__detail .product__spec .field select,
+    .product__detail .product__spec .field input {
+        padding: 0px 12px;
+        height: 40px;
+    }
+    .product__detail .purchase__warp a {
+        height: 60px;
+    }
+    .productImage__wrap .more__images {
+        margin: 10px 0px 0px;
+    }
 }
 
 @media (min-width: 0px) and (max-width: 1200px) {
@@ -196,7 +207,7 @@
         font-size: 12px;
     }
     .mostPopular__product select.product__show {
-        width: 38px;
+        width: 60px;
         padding: 0px;
     }
     .filter__by .mini__filterBox .option ul .inputField__wrap label {
@@ -381,7 +392,7 @@
         border-left: 1px solid #a9a8ad;
         height: 100vh;
         overflow: hidden scroll;
-        transition: .2s ease-in-out;
+        transition: .8s ease-in-out;
         z-index: 999;
     }
     .category__product .product__grid {
@@ -518,6 +529,16 @@
     }
     .searchbar a img {
         width: 13px;
+    }
+    .mostPopular__product select {
+        border-color: lightgray;
+    }
+    a.filter__btn {
+        margin: 0px 0px 0px 13px;
+        padding: 5px 10px 5px 14px;
+    }
+    .product__detail .product__price {
+        margin: 20px 0px;
     }
 }
 
@@ -897,6 +918,22 @@
     .midbar .cantainer {
         padding: 10px 0px;
     }
+    .hero {
+        overflow: hidden;
+    }
+    .hero img {
+        width: 140%;
+    }
+    .category {
+        margin: 0px 0px;
+    }
+    a.filter__btn img {
+        opacity: .6;
+    }
+    .category>.cantainer {
+        border-bottom: 1px solid rgb(211 211 211 / 30%);
+        padding: 10px 0px;
+    }
 }
 
 @media (min-width: 0px) and (max-width: 425px) {
@@ -949,7 +986,7 @@
         gap: 5px;
     }
     .category__wrap {
-        margin: 15px 0px 20px;
+        margin: 10px 0px 15px;
     }
     .product__category .view__more {
         font-size: 12px;
@@ -962,5 +999,15 @@
     }
     .category__wrap .category a .image__warp {
         border-radius: 5px
+    }
+    .hero img {
+        width: 180%;
+    }
+    .hero .heading h1 {
+        font-size: 14px;
+        margin: 0px 0px 4px;
+    }
+    .Breadcrumb a {
+        font-size: 8px;
     }
 }
