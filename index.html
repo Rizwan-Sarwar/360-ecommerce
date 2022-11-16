@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="assets/images/logo.ico" type="image/x-icon">
+    <!-- font -->
+    <link rel="stylesheet" href="assets/css/font.css">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <!-- responsive -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+</head>
+
+<body>
+    <!-- mobile navbar -->
+    <div class="mobile__navbar" id="mobile__navbar">
+        <div class="topbar__mobileMenu">
+            <div class="navbar__iconWrap">
+                <a href="#" onclick="navToggle()" id="nav__btn__Inside">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z"/></svg>
+                </a>
+            </div>
+        </div>
+        <div class="main__menu">
+            <ul>
+                <li>
+                    <a href="#" class="responsive__menuBtn">Top Selling 1<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                    <div class="dropdown">
+                        <div class="topbar__mobileMenu">
+                            <div class="prev__option">
+                                <a href="#" class="preview__menuBtn"><img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"> Back</a>
+                            </div>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="#" class="responsive__menuBtn">Top Selling 2<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                                <div class="dropdown">
+                                    <div class="topbar__mobileMenu">
+                                        <div class="prev__option">
+                                            <a href="#" class="preview__menuBtn"><img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"> Back</a>
+                                        </div>
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <a href="category.html" class="responsive__menuBtn">Top Selling 3<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                                        </li>
+                                        <li>
+                                            <a href="category.html" class="responsive__menuBtn">Garments<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                                        </li>
+                                        <li>
+                                            <a href="category.html" class="responsive__menuBtn">Fashion<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                                        </li>
+                                        <li>
+                                            <a href="category.html" class="responsive__menuBtn">Handicraft<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                                        </li>
+                                        <li>
+                                            <a href="category.html" class="responsive__menuBtn">Corporate Customers<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                                        </li>
+                                        <li class="sale" class="responsive__menuBtn">
+                                            <a href="category.html">Valentine Sale</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="category.html" class="responsive__menuBtn">Garments<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                            </li>
+                            <li>
+                                <a href="category.html" class="responsive__menuBtn">Fashion<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                            </li>
+                            <li>
+                                <a href="category.html" class="responsive__menuBtn">Handicraft<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                            </li>
+                            <li>
+                                <a href="category.html" class="responsive__menuBtn">Corporate Customers<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                            </li>
+                            <li class="sale" class="responsive__menuBtn">
+                                <a href="category.html">Valentine Sale</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="category.html" class="responsive__menuBtn">Garments<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                </li>
+                <li>
+                    <a href="category.html" class="responsive__menuBtn">Fashion<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                </li>
+                <li>
+                    <a href="category.html" class="responsive__menuBtn">Handicraft<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                </li>
+                <li>
+                    <a href="category.html" class="responsive__menuBtn">Corporate Customers<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                </li>
+                <li>
+                    <a href="category.html" class="responsive__menuBtn">Valentine Sale</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- header -->
+    <div class="header">
+        <!-- topbar -->
+        <div class="topbar">
+            <div class="cantainer">
+                <div class="box">
+                    <p>pakistan's best online shopping destination</p>
+                </div>
+                <div class="box">
+                    <a href="#">
+                        <p>track your order</p>
+                    </a>
+                    <a href="#"><img src="assets/images/icon/facebook.svg" alt="icon"></a>
+                    <a href="#"><img src="assets/images/icon/instagram.svg" alt="icon"></a>
+                    <a href="#"><img src="assets/images/icon/youtube.svg" alt="icon"></a>
+                </div>
+            </div>
+        </div>
+        <!-- midbar -->
+        <div class="midbar">
+            <div class="cantainer">
+                <div class="navbar__iconWrap">
+                    <a href="#" onclick="navToggle()" id="nav__btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                    </a>
+                </div>
+                <div class="box logo__wrap">
+                    <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+                </div>
+                <div class="box searchbar__toggle">
+                    <div class="searchbar">
+                        <input type="text" class="search" placeholder="What do you need?">
+                        <a href="category.html"><img src="assets/images/icon/search-icon.svg" alt="icon"></a>
+                    </div>
+                </div>
+                <div class="box icon">
+                    <a href="#" class="searchbar__icon"><img src="assets/images/icon/search.svg" alt="icon"></a>
+                    <a href="#"><img src="assets/images/icon/heart.svg" alt="icon"></a>
+                    <a href="#"><img src="assets/images/icon/person.svg" alt="icon"></a>
+                    <a href="#"><img src="assets/images/icon/cart3.svg" alt="icon"><span>1</span></a>
+                </div>
+            </div>
+        </div>
+        <!-- menu -->
+        <div class="menu">
+            <div class="cantainer">
+                <ul class="navbar">
+                    <li>
+                        <a href="#"><img src="assets/images/icon/home-icon.svg" alt="home"></a>
+                    </li>
+                    <li>
+                        <a href="#">Top Selling<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                    </li>
+                    <li>
+                        <a href="#">Garments<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                    </li>
+                    <li>
+                        <a href="#">Fashion<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                    </li>
+                    <li>
+                        <a href="#">Handicraft<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                    </li>
+                    <li>
+                        <a href="#">Corporate Customers<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                    </li>
+                    <li class="sale">
+                        <a href="#">Valentine Sale</a>
+                    </li>
+                </ul>
+                <div class="navbar__dropdown">
+                    <div class="box">
+                        <h4 class="dropdown__heading">men</h4>
+                        <ul>
+                            <li><a href="category.html">blazers</a></li>
+                            <li><a href="category.html">jackets</a></li>
+                            <li><a href="category.html">collections</a></li>
+                            <li><a href="category.html">t-shirts</a></li>
+                            <li><a href="category.html">jens pants</a></li>
+                            <li><a href="category.html">sports shoes</a></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h4 class="dropdown__heading">women</h4>
+                        <ul>
+                            <li><a href="category.html">cocktail</a></li>
+                            <li><a href="category.html">sunglass</a></li>
+                            <li><a href="category.html">evening</a></li>
+                            <li><a href="category.html">footwear</a></li>
+                            <li><a href="category.html">furniture</a></li>
+                            <li><a href="category.html">hear care</a></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h4 class="dropdown__heading">accessories</h4>
+                        <ul>
+                            <li><a href="category.html">gagets</a></li>
+                            <li><a href="category.html">laptop</a></li>
+                            <li><a href="category.html">mobile</a></li>
+                            <li><a href="category.html">lifestyle</a></li>
+                            <li><a href="category.html">jens pants</a></li>
+                            <li><a href="category.html">sports items</a></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <div class="dropdown__images">
+                            <a href="detail.html"><img src="assets/images/promo/1.png" alt="image"></a>
+                            <a href="detail.html"><img src="assets/images/promo/2.png" alt="image"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hero -->
+    <div class="hero owl-carousel owl-heroSlide">
+        <a href="#">
+            <picture>
+                <source media="(min-width:768px)" srcset="assets/images/hero/slider-1.jpg">
+                <img src="assets/images/hero/slider-1-mbl.jpg" alt="hero">
+            </picture>
+        </a>
+        <a href="#">
+            <picture>
+                <source media="(min-width:768px)" srcset="assets/images/hero/slider-2.jpg">
+                <img src="assets/images/hero/slider-2-mbl.jpg" alt="hero">
+            </picture>
+        </a>
+    </div>
+    <!-- top category -->
+    <div class="category__wrap">
+        <div class="cantainer">
+            <div class="heading">
+                <h2>top categories</h2>
+            </div>
+            <div class="category owl-carousel owl-categorySlide">
+                <div class="box">
+                    <a href="category.html">
+                        <div class="image__warp">
+                            <img src="assets/images/top-category/Promotion-Deals.png" alt="image">
+                        </div>
+                        <p>promotion & deals</p>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="category.html">
+                        <div class="image__warp">
+                            <img src="assets/images/top-category/Men-Garments.png" alt="image">
+                        </div>
+                        <p>men Garments</p>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="category.html">
+                        <div class="image__warp">
+                            <img src="assets/images/top-category/Women-Fashion.png" alt="image">
+                        </div>
+                        <p>women fashion</p>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="category.html">
+                        <div class="image__warp">
+                            <img src="assets/images/top-category/Handicraft.png" alt="image">
+                        </div>
+                        <p>Handicraft</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- top selling -->
+    <div class="home__product">
+        <div class="cantainer">
+            <div class="product__category">
+                <h2>top selling</h2>
+                <a href="#" class="view__more">view all <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg></a>
+            </div>
+            <div class="product__grid owl-carousel owl-productSlide">
+                <!-- box -->
+                <a href="detail.html">
+                    <div class="product__box">
+                        <div class="image__wrap">
+                            <img src="assets/images/men clothing/sm-5.jpg" alt="product_image">
+                        </div>
+                        <div class="product__name">
+                            <p>adjustable black posture corrector for student men and</p>
+                        </div>
+                        <div class="price__wrap">
+                            <p class="main__price">Rs. 551 <span class="discount">Rs. 990 -44%</span></p>
+                        </div>
+                        <div class="stars">
+                            <div class="rate">
+                                <input type="radio" id="" name="rate" value="5" checked/>
+                                <label for="" title="text">5 stars</label>
+                                <input type="radio" id="" name="rate" value="4" />
+                                <label for="" title="text">4 stars</label>
+                                <input type="radio" id="" name="rate" value="3" />
+                                <label for="" title="text">3 stars</label>
+                                <input type="radio" id="" name="rate" value="2" />
+                                <label for="" title="text">2 stars</label>
+                                <input type="radio" id="" name="rate" value="1" />
+                                <label for="" title="text">1 star</label>
+                            </div>
+                            <span class="review__count">(10)</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- box -->
+                <a href="detail.html">
+                    <div class="product__box">
+                        <div class="image__wrap">
+                            <img src="assets/images/mobile-accessories/sm-4.jpg" alt="product_image">
+                        </div>
+                        <div class="product__name">
+                            <p>universal smartphone mini flexible tripod sponge octopus</p>
+                        </div>
+                        <div class="price__wrap">
+                            <p class="main__price">Rs. 551 <span class="discount">Rs. 990 -44%</span></p>
+                        </div>
+                        <div class="stars">
+                            <div class="rate">
+                                <input type="radio" id="" name="rate" value="5" checked/>
+                                <label for="" title="text">5 stars</label>
+                                <input type="radio" id="" name="rate" value="4" />
+                                <label for="" title="text">4 stars</label>
+                                <input type="radio" id="" name="rate" value="3" />
+                                <label for="" title="text">3 stars</label>
+                                <input type="radio" id="" name="rate" value="2" />
+                                <label for="" title="text">2 stars</label>
+                                <input type="radio" id="" name="rate" value="1" />
+                                <label for="" title="text">1 star</label>
+                            </div>
+                            <span class="review__count">(10)</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- box -->
+                <a href="detail.html">
+                    <div class="product__box">
+                        <div class="image__wrap">
+                            <img src="assets/images/women-fashion/sm-1.jpg" alt="product_image">
+                        </div>
+                        <div class="product__name">
+                            <p>cut price classic socks for men milti-color pack of 3</p>
+                        </div>
+                        <div class="price__wrap">
+                            <p class="main__price">Rs. 551 <span class="discount">Rs. 990 -44%</span></p>
+                        </div>
+                        <div class="stars">
+                            <div class="rate">
+                                <input type="radio" id="" name="rate" value="5" checked/>
+                                <label for="" title="text">5 stars</label>
+                                <input type="radio" id="" name="rate" value="4" />
+                                <label for="" title="text">4 stars</label>
+                                <input type="radio" id="" name="rate" value="3" />
+                                <label for="" title="text">3 stars</label>
+                                <input type="radio" id="" name="rate" value="2" />
+                                <label for="" title="text">2 stars</label>
+                                <input type="radio" id="" name="rate" value="1" />
+                                <label for="" title="text">1 star</label>
+                            </div>
+                            <span class="review__count">(10)</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- box -->
+                <a href="detail.html">
+                    <div class="product__box">
+                        <div class="image__wrap">
+                            <img src="assets/images/men clothing/sm-3.jpg" alt="product_image">
+                        </div>
+                        <div class="product__name">
+                            <p>eyeshadow palette 6 colors - branded - high quality imported</p>
+                        </div>
+                        <div class="price__wrap">
+                            <p class="main__price">Rs. 551 <span class="discount">Rs. 990 -44%</span></p>
+                        </div>
+                        <div class="stars">
+                            <div class="rate">
+                                <input type="radio" id="" name="rate" value="5" checked/>
+                                <label for="" title="text">5 stars</label>
+                                <input type="radio" id="" name="rate" value="4" />
+                                <label for="" title="text">4 stars</label>
+                                <input type="radio" id="" name="rate" value="3" />
+                                <label for="" title="text">3 stars</label>
+                                <input type="radio" id="" name="rate" value="2" />
+                                <label for="" title="text">2 stars</label>
+                                <input type="radio" id="" name="rate" value="1" />
+                                <label for="" title="text">1 star</label>
+                            </div>
+                            <span class="review__count">(10)</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- box -->
+                <a href="detail.html">
+                    <div class="product__box">
+                        <div class="image__wrap">
+                            <img src="assets/images/mackup/sm-2.jpg" alt="product_image">
+                        </div>
+                        <div class="product__name">
+                            <p>universal smartphone mini flexible tripod sponge octopus</p>
+                        </div>
+                        <div class="price__wrap">
+                            <p class="main__price">Rs. 551 <span class="discount">Rs. 990 -44%</span></p>
+                        </div>
+                        <div class="stars">
+                            <div class="rate">
+                                <input type="radio" id="" name="rate" value="5" checked/>
+                                <label for="" title="text">5 stars</label>
+                                <input type="radio" id="" name="rate" value="4" />
+                                <label for="" title="text">4 stars</label>
+                                <input type="radio" id="" name="rate" value="3" />
+                                <label for="" title="text">3 stars</label>
+                                <input type="radio" id="" name="rate" value="2" />
+                                <label for="" title="text">2 stars</label>
+                                <input type="radio" id="" name="rate" value="1" />
+                                <label for="" title="text">1 star</label>
+                            </div>
+                            <span class="review__count">(10)</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- promo slide -->
+    <div class="promo__slide">
+        <div class="cantainer owl-carousel owl-promoSlide">
+            <a href="category.html">
+                <img src="assets/images/promo/1.png" alt="promo">
+            </a>
+            <a href="category.html">
+                <img src="assets/images/promo/2.png" alt="promo">
+            </a>
+        </div>
+    </div>
+    <!-- mens fashion -->
+    <div class="home__product">
+        <div class="cantainer">
+            <div class="product__category">
+                <h2>men fashion</h2>
+                <a href="#" class="view__more">view all <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg></a>
+            </div>
+            <div class="product__grid owl-carousel owl-productSlide">
+                <!-- box -->
+                <a href="detail.html">
+                    <div class="product__box">
+                        <div class="image__wrap">
+                            <img src="assets/images/top-selling/sm-1.jpg" alt="product_image">
+                        </div>
+                        <div class="product__name">
+                            <p>adjustable black posture corrector for student men and</p>
+                        </div>
+                        <div class="price__wrap">
+                            <p class="main__price">Rs. 551 <span class="discount">Rs. 990 -44%</span></p>
+                        </div>
+                        <div class="stars">
+                            <div class="rate">
+                                <input type="radio" id="" name="rate" value="5" checked/>
+                                <label for="" title="text">5 stars</label>
+                                <input type="radio" id="" name="rate" value="4" />
+                                <label for="" title="text">4 stars</label>
+                                <input type="radio" id="" name="rate" value="3" />
+                                <label for="" title="text">3 stars</label>
+                                <input type="radio" id="" name="rate" value="2" />
+                                <label for="" title="text">2 stars</label>
+                                <input type="radio" id="" name="rate" value="1" />
+                                <label for="" title="text">1 star</label>
+                            </div>
+                            <span class="review__count">(10)</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- box -->
+                <a href="detail.html">
+                    <div class="product__box">
+                        <div class="image__wrap">
+                            <img src="assets/images/top-selling/sm-2.jpg" alt="product_image">
+                        </div>
+                        <div class="product__name">
+                            <p>universal smartphone mini flexible tripod sponge octopus</p>
+                        </div>
+                        <div class="price__wrap">
+                            <p class="main__price">Rs. 551 <span class="discount">Rs. 990 -44%</span></p>
+                        </div>
+                        <div class="stars">
+                            <div class="rate">
+                                <input type="radio" id="" name="rate" value="5" checked/>
+                                <label for="" title="text">5 stars</label>
+                                <input type="radio" id="" name="rate" value="4" />
+                                <label for="" title="text">4 stars</label>
+                                <input type="radio" id="" name="rate" value="3" />
+                                <label for="" title="text">3 stars</label>
+                                <input type="radio" id="" name="rate" value="2" />
+                                <label for="" title="text">2 stars</label>
+                                <input type="radio" id="" name="rate" value="1" />
+                                <label for="" title="text">1 star</label>
+                            </div>
+                            <span class="review__count">(10)</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- box -->
+                <a href="detail.html">
+                    <div class="product__box">
+                        <div class="image__wrap">
+                            <img src="assets/images/top-selling/sm-3.jpg" alt="product_image">
+                        </div>
+                        <div class="product__name">
+                            <p>cut price classic socks for men milti-color pack of 3</p>
+                        </div>
+                        <div class="price__wrap">
+                            <p class="main__price">Rs. 551 <span class="discount">Rs. 990 -44%</span></p>
+                        </div>
+                        <div class="stars">
+                            <div class="rate">
+                                <input type="radio" id="" name="rate" value="5" checked/>
+                                <label for="" title="text">5 stars</label>
+                                <input type="radio" id="" name="rate" value="4" />
+                                <label for="" title="text">4 stars</label>
+                                <input type="radio" id="" name="rate" value="3" />
+                                <label for="" title="text">3 stars</label>
+                                <input type="radio" id="" name="rate" value="2" />
+                                <label for="" title="text">2 stars</label>
+                                <input type="radio" id="" name="rate" value="1" />
+                                <label for="" title="text">1 star</label>
+                            </div>
+                            <span class="review__count">(10)</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- box -->
+                <a href="detail.html">
+                    <div class="product__box">
+                        <div class="image__wrap">
+                            <img src="assets/images/top-selling/sm-4.jpg" alt="product_image">
+                        </div>
+                        <div class="product__name">
+                            <p>eyeshadow palette 6 colors - branded - high quality imported</p>
+                        </div>
+                        <div class="price__wrap">
+                            <p class="main__price">Rs. 551 <span class="discount">Rs. 990 -44%</span></p>
+                        </div>
+                        <div class="stars">
+                            <div class="rate">
+                                <input type="radio" id="" name="rate" value="5" checked/>
+                                <label for="" title="text">5 stars</label>
+                                <input type="radio" id="" name="rate" value="4" />
+                                <label for="" title="text">4 stars</label>
+                                <input type="radio" id="" name="rate" value="3" />
+                                <label for="" title="text">3 stars</label>
+                                <input type="radio" id="" name="rate" value="2" />
+                                <label for="" title="text">2 stars</label>
+                                <input type="radio" id="" name="rate" value="1" />
+                                <label for="" title="text">1 star</label>
+                            </div>
+                            <span class="review__count">(10)</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- box -->
+                <a href="detail.html">
+                    <div class="product__box">
+                        <div class="image__wrap">
+                            <img src="assets/images/top-selling/sm-5.jpg" alt="product_image">
+                        </div>
+                        <div class="product__name">
+                            <p>universal smartphone mini flexible tripod sponge octopus</p>
+                        </div>
+                        <div class="price__wrap">
+                            <p class="main__price">Rs. 551 <span class="discount">Rs. 990 -44%</span></p>
+                        </div>
+                        <div class="stars">
+                            <div class="rate">
+                                <input type="radio" id="" name="rate" value="5" checked/>
+                                <label for="" title="text">5 stars</label>
+                                <input type="radio" id="" name="rate" value="4" />
+                                <label for="" title="text">4 stars</label>
+                                <input type="radio" id="" name="rate" value="3" />
+                                <label for="" title="text">3 stars</label>
+                                <input type="radio" id="" name="rate" value="2" />
+                                <label for="" title="text">2 stars</label>
+                                <input type="radio" id="" name="rate" value="1" />
+                                <label for="" title="text">1 star</label>
+                            </div>
+                            <span class="review__count">(10)</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- mobile accessories -->
+    <div class="home__product">
+        <div class="cantainer">
+            <div class="product__category">
+                <h2>mobile accessories</h2>
+                <a href="#" class="view__more">view all <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg></a>
+            </div>
+            <div class="product__grid owl-carousel owl-productSlide">
+                <!-- box -->
+                <a href="detail.html">
+                    <div class="product__box">
+                        <div class="image__wrap">
+                            <img src="assets/images/mobile-accessories/sm-1.jpg" alt="product_image">
+                        </div>
+                        <div class="product__name">
+                            <p>msk wall mounted mobile phone holder for charging pack of 3</p>
+                        </div>
+                        <div class="price__wrap">
+                            <p class="main__price">Rs. 551 <span class="discount">Rs. 990 -44%</span></p>
+                        </div>
+                        <div class="stars">
+                            <div class="rate">
+                                <input type="radio" id="" name="rate" value="5" checked/>
+                                <label for="" title="text">5 stars</label>
+                                <input type="radio" id="" name="rate" value="4" />
+                                <label for="" title="text">4 stars</label>
+                                <input type="radio" id="" name="rate" value="3" />
+                                <label for="" title="text">3 stars</label>
+                                <input type="radio" id="" name="rate" value="2" />
+                                <label for="" title="text">2 stars</label>
+                                <input type="radio" id="" name="rate" value="1" />
+                                <label for="" title="text">1 star</label>
+                            </div>
+                            <span class="review__count">(10)</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- box -->
+                <a href="detail.html">
+                    <div class="product__box">
+                        <div class="image__wrap">
+                            <img src="assets/images/mobile-accessories/sm-2.jpg" alt="product_image">
+                        </div>
+                        <div class="product__name">
+                            <p>orignal magnetic fast charging cable 3in 1 - macro USB Android</p>
+                        </div>
+                        <div class="price__wrap">
+                            <p class="main__price">Rs. 551 <span class="discount">Rs. 990 -44%</span></p>
+                        </div>
+                        <div class="stars">
+                            <div class="rate">
+                                <input type="radio" id="" name="rate" value="5" checked/>
+                                <label for="" title="text">5 stars</label>
+                                <input type="radio" id="" name="rate" value="4" />
+                                <label for="" title="text">4 stars</label>
+                                <input type="radio" id="" name="rate" value="3" />
+                                <label for="" title="text">3 stars</label>
+                                <input type="radio" id="" name="rate" value="2" />
+                                <label for="" title="text">2 stars</label>
+                                <input type="radio" id="" name="rate" value="1" />
+                                <label for="" title="text">1 star</label>
+                            </div>
+                            <span class="review__count">(10)</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- box -->
+                <a href="detail.html">
+                    <div class="product__box">
+                        <div class="image__wrap">
+                            <img src="assets/images/mobile-accessories/sm-3.jpg" alt="product_image">
+                        </div>
+                        <div class="product__name">
+                            <p>iGear data cable - high quality data cable - brand data cable -</p>
+                        </div>
+                        <div class="price__wrap">
+                            <p class="main__price">Rs. 551 <span class="discount">Rs. 990 -44%</span></p>
+                        </div>
+                        <div class="stars">
+                            <div class="rate">
+                                <input type="radio" id="" name="rate" value="5" checked/>
+                                <label for="" title="text">5 stars</label>
+                                <input type="radio" id="" name="rate" value="4" />
+                                <label for="" title="text">4 stars</label>
+                                <input type="radio" id="" name="rate" value="3" />
+                                <label for="" title="text">3 stars</label>
+                                <input type="radio" id="" name="rate" value="2" />
+                                <label for="" title="text">2 stars</label>
+                                <input type="radio" id="" name="rate" value="1" />
+                                <label for="" title="text">1 star</label>
+                            </div>
+                            <span class="review__count">(10)</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- box -->
+                <a href="detail.html">
+                    <div class="product__box">
+                        <div class="image__wrap">
+                            <img src="assets/images/mobile-accessories/sm-4.jpg" alt="product_image">
+                        </div>
+                        <div class="product__name">
+                            <p>realme_USB android data cable fast charging 5V / 9V 2A support</p>
+                        </div>
+                        <div class="price__wrap">
+                            <p class="main__price">Rs. 551 <span class="discount">Rs. 990 -44%</span></p>
+                        </div>
+                        <div class="stars">
+                            <div class="rate">
+                                <input type="radio" id="" name="rate" value="5" checked/>
+                                <label for="" title="text">5 stars</label>
+                                <input type="radio" id="" name="rate" value="4" />
+                                <label for="" title="text">4 stars</label>
+                                <input type="radio" id="" name="rate" value="3" />
+                                <label for="" title="text">3 stars</label>
+                                <input type="radio" id="" name="rate" value="2" />
+                                <label for="" title="text">2 stars</label>
+                                <input type="radio" id="" name="rate" value="1" />
+                                <label for="" title="text">1 star</label>
+                            </div>
+                            <span class="review__count">(10)</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- box -->
+                <a href="detail.html">
+                    <div class="product__box">
+                        <div class="image__wrap">
+                            <img src="assets/images/mobile-accessories/sm-5.jpg" alt="product_image">
+                        </div>
+                        <div class="product__name">
+                            <p>realme_5 / 5s / 5i - airbag antishock - drop resistance -</p>
+                        </div>
+                        <div class="price__wrap">
+                            <p class="main__price">Rs. 551 <span class="discount">Rs. 990 -44%</span></p>
+                        </div>
+                        <div class="stars">
+                            <div class="rate">
+                                <input type="radio" id="" name="rate" value="5" checked/>
+                                <label for="" title="text">5 stars</label>
+                                <input type="radio" id="" name="rate" value="4" />
+                                <label for="" title="text">4 stars</label>
+                                <input type="radio" id="" name="rate" value="3" />
+                                <label for="" title="text">3 stars</label>
+                                <input type="radio" id="" name="rate" value="2" />
+                                <label for="" title="text">2 stars</label>
+                                <input type="radio" id="" name="rate" value="1" />
+                                <label for="" title="text">1 star</label>
+                            </div>
+                            <span class="review__count">(10)</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- promo slide -->
+    <div class="promo__slide">
+        <div class="cantainer owl-carousel owl-promoSlide">
+            <a href="category.html">
+                <img src="assets/images/promo/3.png" alt="promo">
+            </a>
+            <a href="category.html">
+                <img src="assets/images/promo/4.png" alt="promo">
+            </a>
+        </div>
+    </div>
+    <!-- women fashion -->
+    <div class="home__product">
+        <div class="cantainer">
+            <div class="product__category">
+                <h2>women fashion</h2>
+                <a href="#" class="view__more">view all <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg></a>
+            </div>
+            <div class="product__grid owl-carousel owl-productSlide">
+                <!-- box -->
+                <a href="detail.html">
+                    <div class="product__box">
+                        <div class="image__wrap">
+                            <img src="assets/images/women-fashion/sm-1.jpg" alt="product_image">
+                        </div>
+                        <div class="product__name">
+                            <p>msk wall mounted mobile phone holder for charging pack of 3</p>
+                        </div>
+                        <div class="price__wrap">
+                            <p class="main__price">Rs. 551 <span class="discount">Rs. 990 -44%</span></p>
+                        </div>
+                        <div class="stars">
+                            <div class="rate">
+                                <input type="radio" id="" name="rate" value="5" checked/>
+                                <label for="" title="text">5 stars</label>
+                                <input type="radio" id="" name="rate" value="4" />
+                                <label for="" title="text">4 stars</label>
+                                <input type="radio" id="" name="rate" value="3" />
+                                <label for="" title="text">3 stars</label>
+                                <input type="radio" id="" name="rate" value="2" />
+                                <label for="" title="text">2 stars</label>
+                                <input type="radio" id="" name="rate" value="1" />
+                                <label for="" title="text">1 star</label>
+                            </div>
+                            <span class="review__count">(10)</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- box -->
+                <a href="detail.html">
+                    <div class="product__box">
+                        <div class="image__wrap">
+                            <img src="assets/images/women-fashion/sm-2.jpg" alt="product_image">
+                        </div>
+                        <div class="product__name">
+                            <p>orignal magnetic fast charging cable 3in 1 - macro USB Android</p>
+                        </div>
+                        <div class="price__wrap">
+                            <p class="main__price">Rs. 551 <span class="discount">Rs. 990 -44%</span></p>
+                        </div>
+                        <div class="stars">
+                            <div class="rate">
+                                <input type="radio" id="" name="rate" value="5" checked/>
+                                <label for="" title="text">5 stars</label>
+                                <input type="radio" id="" name="rate" value="4" />
+                                <label for="" title="text">4 stars</label>
+                                <input type="radio" id="" name="rate" value="3" />
+                                <label for="" title="text">3 stars</label>
+                                <input type="radio" id="" name="rate" value="2" />
+                                <label for="" title="text">2 stars</label>
+                                <input type="radio" id="" name="rate" value="1" />
+                                <label for="" title="text">1 star</label>
+                            </div>
+                            <span class="review__count">(10)</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- box -->
+                <a href="detail.html">
+                    <div class="product__box">
+                        <div class="image__wrap">
+                            <img src="assets/images/women-fashion/sm-3.jpg" alt="product_image">
+                        </div>
+                        <div class="product__name">
+                            <p>iGear data cable - high quality data cable - brand data cable -</p>
+                        </div>
+                        <div class="price__wrap">
+                            <p class="main__price">Rs. 551 <span class="discount">Rs. 990 -44%</span></p>
+                        </div>
+                        <div class="stars">
+                            <div class="rate">
+                                <input type="radio" id="" name="rate" value="5" checked/>
+                                <label for="" title="text">5 stars</label>
+                                <input type="radio" id="" name="rate" value="4" />
+                                <label for="" title="text">4 stars</label>
+                                <input type="radio" id="" name="rate" value="3" />
+                                <label for="" title="text">3 stars</label>
+                                <input type="radio" id="" name="rate" value="2" />
+                                <label for="" title="text">2 stars</label>
+                                <input type="radio" id="" name="rate" value="1" />
+                                <label for="" title="text">1 star</label>
+                            </div>
+                            <span class="review__count">(10)</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- box -->
+                <a href="detail.html">
+                    <div class="product__box">
+                        <div class="image__wrap">
+                            <img src="assets/images/women-fashion/sm-4.jpg" alt="product_image">
+                        </div>
+                        <div class="product__name">
+                            <p>realme_USB android data cable fast charging 5V / 9V 2A support</p>
+                        </div>
+                        <div class="price__wrap">
+                            <p class="main__price">Rs. 551 <span class="discount">Rs. 990 -44%</span></p>
+                        </div>
+                        <div class="stars">
+                            <div class="rate">
+                                <input type="radio" id="" name="rate" value="5" checked/>
+                                <label for="" title="text">5 stars</label>
+                                <input type="radio" id="" name="rate" value="4" />
+                                <label for="" title="text">4 stars</label>
+                                <input type="radio" id="" name="rate" value="3" />
+                                <label for="" title="text">3 stars</label>
+                                <input type="radio" id="" name="rate" value="2" />
+                                <label for="" title="text">2 stars</label>
+                                <input type="radio" id="" name="rate" value="1" />
+                                <label for="" title="text">1 star</label>
+                            </div>
+                            <span class="review__count">(10)</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- box -->
+                <a href="detail.html">
+                    <div class="product__box">
+                        <div class="image__wrap">
+                            <img src="assets/images/women-fashion/sm-5.jpg" alt="product_image">
+                        </div>
+                        <div class="product__name">
+                            <p>realme_5 / 5s / 5i - airbag antishock - drop resistance -</p>
+                        </div>
+                        <div class="price__wrap">
+                            <p class="main__price">Rs. 551 <span class="discount">Rs. 990 -44%</span></p>
+                        </div>
+                        <div class="stars">
+                            <div class="rate">
+                                <input type="radio" id="" name="rate" value="5" checked/>
+                                <label for="" title="text">5 stars</label>
+                                <input type="radio" id="" name="rate" value="4" />
+                                <label for="" title="text">4 stars</label>
+                                <input type="radio" id="" name="rate" value="3" />
+                                <label for="" title="text">3 stars</label>
+                                <input type="radio" id="" name="rate" value="2" />
+                                <label for="" title="text">2 stars</label>
+                                <input type="radio" id="" name="rate" value="1" />
+                                <label for="" title="text">1 star</label>
+                            </div>
+                            <span class="review__count">(10)</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- mackup -->
+    <div class="home__product">
+        <div class="cantainer">
+            <div class="product__category">
+                <h2>mackup</h2>
+                <a href="#" class="view__more">view all <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg></a>
+            </div>
+            <div class="product__grid owl-carousel owl-productSlide">
+                <!-- box -->
+                <a href="detail.html">
+                    <div class="product__box">
+                        <div class="image__wrap">
+                            <img src="assets/images/mackup/sm-1.jpg" alt="product_image">
+                        </div>
+                        <div class="product__name">
+                            <p>msk wall mounted mobile phone holder for charging pack of 3</p>
+                        </div>
+                        <div class="price__wrap">
+                            <p class="main__price">Rs. 551 <span class="discount">Rs. 990 -44%</span></p>
+                        </div>
+                        <div class="stars">
+                            <div class="rate">
+                                <input type="radio" id="" name="rate" value="5" checked/>
+                                <label for="" title="text">5 stars</label>
+                                <input type="radio" id="" name="rate" value="4" />
+                                <label for="" title="text">4 stars</label>
+                                <input type="radio" id="" name="rate" value="3" />
+                                <label for="" title="text">3 stars</label>
+                                <input type="radio" id="" name="rate" value="2" />
+                                <label for="" title="text">2 stars</label>
+                                <input type="radio" id="" name="rate" value="1" />
+                                <label for="" title="text">1 star</label>
+                            </div>
+                            <span class="review__count">(10)</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- box -->
+                <a href="detail.html">
+                    <div class="product__box">
+                        <div class="image__wrap">
+                            <img src="assets/images/mackup/sm-2.jpg" alt="product_image">
+                        </div>
+                        <div class="product__name">
+                            <p>orignal magnetic fast charging cable 3in 1 - macro USB Android</p>
+                        </div>
+                        <div class="price__wrap">
+                            <p class="main__price">Rs. 551 <span class="discount">Rs. 990 -44%</span></p>
+                        </div>
+                        <div class="stars">
+                            <div class="rate">
+                                <input type="radio" id="" name="rate" value="5" checked/>
+                                <label for="" title="text">5 stars</label>
+                                <input type="radio" id="" name="rate" value="4" />
+                                <label for="" title="text">4 stars</label>
+                                <input type="radio" id="" name="rate" value="3" />
+                                <label for="" title="text">3 stars</label>
+                                <input type="radio" id="" name="rate" value="2" />
+                                <label for="" title="text">2 stars</label>
+                                <input type="radio" id="" name="rate" value="1" />
+                                <label for="" title="text">1 star</label>
+                            </div>
+                            <span class="review__count">(10)</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- box -->
+                <a href="detail.html">
+                    <div class="product__box">
+                        <div class="image__wrap">
+                            <img src="assets/images/mackup/sm-3.jpg" alt="product_image">
+                        </div>
+                        <div class="product__name">
+                            <p>iGear data cable - high quality data cable - brand data cable -</p>
+                        </div>
+                        <div class="price__wrap">
+                            <p class="main__price">Rs. 551 <span class="discount">Rs. 990 -44%</span></p>
+                        </div>
+                        <div class="stars">
+                            <div class="rate">
+                                <input type="radio" id="" name="rate" value="5" checked/>
+                                <label for="" title="text">5 stars</label>
+                                <input type="radio" id="" name="rate" value="4" />
+                                <label for="" title="text">4 stars</label>
+                                <input type="radio" id="" name="rate" value="3" />
+                                <label for="" title="text">3 stars</label>
+                                <input type="radio" id="" name="rate" value="2" />
+                                <label for="" title="text">2 stars</label>
+                                <input type="radio" id="" name="rate" value="1" />
+                                <label for="" title="text">1 star</label>
+                            </div>
+                            <span class="review__count">(10)</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- box -->
+                <a href="detail.html">
+                    <div class="product__box">
+                        <div class="image__wrap">
+                            <img src="assets/images/mackup/sm-4.jpg" alt="product_image">
+                        </div>
+                        <div class="product__name">
+                            <p>realme_USB android data cable fast charging 5V / 9V 2A support</p>
+                        </div>
+                        <div class="price__wrap">
+                            <p class="main__price">Rs. 551 <span class="discount">Rs. 990 -44%</span></p>
+                        </div>
+                        <div class="stars">
+                            <div class="rate">
+                                <input type="radio" id="" name="rate" value="5" checked/>
+                                <label for="" title="text">5 stars</label>
+                                <input type="radio" id="" name="rate" value="4" />
+                                <label for="" title="text">4 stars</label>
+                                <input type="radio" id="" name="rate" value="3" />
+                                <label for="" title="text">3 stars</label>
+                                <input type="radio" id="" name="rate" value="2" />
+                                <label for="" title="text">2 stars</label>
+                                <input type="radio" id="" name="rate" value="1" />
+                                <label for="" title="text">1 star</label>
+                            </div>
+                            <span class="review__count">(10)</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- box -->
+                <a href="detail.html">
+                    <div class="product__box">
+                        <div class="image__wrap">
+                            <img src="assets/images/mackup/sm-5.jpg" alt="product_image">
+                        </div>
+                        <div class="product__name">
+                            <p>realme_5 / 5s / 5i - airbag antishock - drop resistance -</p>
+                        </div>
+                        <div class="price__wrap">
+                            <p class="main__price">Rs. 551 <span class="discount">Rs. 990 -44%</span></p>
+                        </div>
+                        <div class="stars">
+                            <div class="rate">
+                                <input type="radio" id="" name="rate" value="5" checked/>
+                                <label for="" title="text">5 stars</label>
+                                <input type="radio" id="" name="rate" value="4" />
+                                <label for="" title="text">4 stars</label>
+                                <input type="radio" id="" name="rate" value="3" />
+                                <label for="" title="text">3 stars</label>
+                                <input type="radio" id="" name="rate" value="2" />
+                                <label for="" title="text">2 stars</label>
+                                <input type="radio" id="" name="rate" value="1" />
+                                <label for="" title="text">1 star</label>
+                            </div>
+                            <span class="review__count">(10)</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- home info -->
+    <div class="home__info">
+        <div class="cantainer">
+            <div class="box">
+                <div class="left">
+                    <img src="assets/images/icon/rocket-icon.png" alt="icon">
+                </div>
+                <div class="right">
+                    <h3>nationwide deliveries</h3>
+                    <p>we are offering delivery all over pakistan</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <img src="assets/images/icon/support-icon.png" alt="icon">
+                </div>
+                <div class="right">
+                    <h3>online support</h3>
+                    <p>technical support</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <img src="assets/images/icon/spin-icon.png" alt="icon">
+                </div>
+                <div class="right">
+                    <h3>mondy back guarantee</h3>
+                    <p>7 days money back guarantee</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <img src="assets/images/icon/reward-icon.png" alt="icon">
+                </div>
+                <div class="right">
+                    <h3>member discount</h3>
+                    <p>upto 40% discount</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- newsletter -->
+    <div class="newsletter">
+        <div class="cantainer">
+            <div class="box">
+                <p>sign up to our <span>newsletter</span> and avail <span>big discounts</span></p>
+            </div>
+            <div class="box subscription">
+                <input type="email" placeholder="Your email address">
+                <a href="#">subscribe</a>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="cantainer">
+            <div class="box">
+                <div class="footerLogo__wrap">
+                    <a href="#"><img src="assets/images/footer-logo.png" alt="logo"></a>
+                </div>
+                <h4 class="footer__heading">address:</h4>
+                <p>Office # 401, 4th floor dawood center plot 124-R, P.E.C.H.S Tariq Road</p>
+            </div>
+            <div class="box">
+                <h4 class="footer__heading">Quick Link</h4>
+                <ul>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">terms & conditions</a></li>
+                    <li><a href="#">shipping policy</a></li>
+                    <li><a href="#">return policy</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h4 class="footer__heading">Company</h4>
+                <ul>
+                    <li><a href="#">vendor registration</a></li>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">contact us</a></li>
+                    <li><a href="#">sitemap</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h4 class="footer__heading">Top Category</h4>
+                <ul>
+                    <li><a href="category.html">fashion</a></li>
+                    <li><a href="category.html">electronics</a></li>
+                    <li><a href="category.html">home & furniture</a></li>
+                    <li><a href="category.html">mobile phones</a></li>
+                    <li><a href="category.html">grocery</a></li>
+                    <li><a href="category.html">health & beauty</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h4 class="footer__heading">social</h4>
+                <ul class="footerSocial__icon">
+                    <li>
+                        <a href="#"><img src="assets/images/icon/facebook-f.svg" alt="icon"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="assets/images/icon/instagram.svg" alt="icon"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="assets/images/icon/whatsapp.svg" alt="icon"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="assets/images/icon/twitter.svg" alt="icon"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bottom__bar">
+        <div class="cantainer">
+            <div class="box">
+                <p>Copyrite © 2022 Shop Me 360, All rights reserved</p>
+            </div>
+            <div class="box">
+                <p>Powered by <a href="#">waze tech</a></p>
+            </div>
+            <div class="box">
+                <a href="#"><img src="assets/images/icon/payment-method.png" alt="image"></a>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<!-- owl carousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<!-- js -->
+<script src="assets/js/carousel_Setting.js"></script>
+<script src="assets/js/logic.js"></script>
+
+</html>

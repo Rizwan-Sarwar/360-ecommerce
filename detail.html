@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font -->
+    <link rel="stylesheet" href="assets/css/font.css">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <!-- responsive -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+</head>
+
+<body>
+    <!-- mobile navbar -->
+    <div class="mobile__navbar" id="mobile__navbar">
+        <div class="topbar__mobileMenu">
+            <div class="navbar__iconWrap">
+                <a href="#" onclick="navToggle()" id="nav__btn__Inside">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z"/></svg>
+                </a>
+            </div>
+        </div>
+        <div class="main__menu">
+            <ul>
+                <li>
+                    <a href="#" class="responsive__menuBtn">Top Selling 1<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                    <div class="dropdown">
+                        <div class="topbar__mobileMenu">
+                            <div class="prev__option">
+                                <a href="#" class="preview__menuBtn"><img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"> Back</a>
+                            </div>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="#" class="responsive__menuBtn">Top Selling 2<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                                <div class="dropdown">
+                                    <div class="topbar__mobileMenu">
+                                        <div class="prev__option">
+                                            <a href="#" class="preview__menuBtn"><img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"> Back</a>
+                                        </div>
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <a href="category.html" class="responsive__menuBtn">Top Selling 3<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                                        </li>
+                                        <li>
+                                            <a href="category.html" class="responsive__menuBtn">Garments<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                                        </li>
+                                        <li>
+                                            <a href="category.html" class="responsive__menuBtn">Fashion<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                                        </li>
+                                        <li>
+                                            <a href="category.html" class="responsive__menuBtn">Handicraft<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                                        </li>
+                                        <li>
+                                            <a href="category.html" class="responsive__menuBtn">Corporate Customers<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                                        </li>
+                                        <li class="sale" class="responsive__menuBtn">
+                                            <a href="category.html">Valentine Sale</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="category.html" class="responsive__menuBtn">Garments<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                            </li>
+                            <li>
+                                <a href="category.html" class="responsive__menuBtn">Fashion<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                            </li>
+                            <li>
+                                <a href="category.html" class="responsive__menuBtn">Handicraft<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                            </li>
+                            <li>
+                                <a href="category.html" class="responsive__menuBtn">Corporate Customers<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                            </li>
+                            <li class="sale" class="responsive__menuBtn">
+                                <a href="category.html">Valentine Sale</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="category.html" class="responsive__menuBtn">Garments<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                </li>
+                <li>
+                    <a href="category.html" class="responsive__menuBtn">Fashion<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                </li>
+                <li>
+                    <a href="category.html" class="responsive__menuBtn">Handicraft<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                </li>
+                <li>
+                    <a href="category.html" class="responsive__menuBtn">Corporate Customers<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                </li>
+                <li>
+                    <a href="category.html" class="responsive__menuBtn">Valentine Sale</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- header -->
+    <div class="header">
+        <!-- topbar -->
+        <div class="topbar">
+            <div class="cantainer">
+                <div class="box">
+                    <p>pakistan's best online shopping destination</p>
+                </div>
+                <div class="box">
+                    <a href="#">
+                        <p>track your order</p>
+                    </a>
+                    <a href="#"><img src="assets/images/icon/facebook.svg" alt="icon"></a>
+                    <a href="#"><img src="assets/images/icon/instagram.svg" alt="icon"></a>
+                    <a href="#"><img src="assets/images/icon/youtube.svg" alt="icon"></a>
+                </div>
+            </div>
+        </div>
+        <!-- midbar -->
+        <div class="midbar">
+            <div class="cantainer">
+                <div class="navbar__iconWrap">
+                    <a href="#" onclick="navToggle()" id="nav__btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                    </a>
+                </div>
+                <div class="box logo__wrap">
+                    <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+                </div>
+                <div class="box searchbar__toggle">
+                    <div class="searchbar">
+                        <input type="text" class="search" placeholder="What do you need?">
+                        <a href="category.html"><img src="assets/images/icon/search-icon.svg" alt="icon"></a>
+                    </div>
+                </div>
+                <div class="box icon">
+                    <a href="#" class="searchbar__icon"><img src="assets/images/icon/search.svg" alt="icon"></a>
+                    <a href="#"><img src="assets/images/icon/heart.svg" alt="icon"></a>
+                    <a href="#"><img src="assets/images/icon/person.svg" alt="icon"></a>
+                    <a href="#"><img src="assets/images/icon/cart3.svg" alt="icon"><span>1</span></a>
+                </div>
+            </div>
+        </div>
+        <!-- menu -->
+        <div class="menu">
+            <div class="cantainer">
+                <ul class="navbar">
+                    <li>
+                        <a href="#"><img src="assets/images/icon/home-icon.svg" alt="home"></a>
+                    </li>
+                    <li>
+                        <a href="#">Top Selling<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                    </li>
+                    <li>
+                        <a href="#">Garments<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                    </li>
+                    <li>
+                        <a href="#">Fashion<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                    </li>
+                    <li>
+                        <a href="#">Handicraft<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                    </li>
+                    <li>
+                        <a href="#">Corporate Customers<img src="assets/images/icon/down-arrow-icon.svg" alt="arrow"></a>
+                    </li>
+                    <li class="sale">
+                        <a href="#">Valentine Sale</a>
+                    </li>
+                </ul>
+                <div class="navbar__dropdown">
+                    <div class="box">
+                        <h4 class="dropdown__heading">men</h4>
+                        <ul>
+                            <li><a href="category.html">blazers</a></li>
+                            <li><a href="category.html">jackets</a></li>
+                            <li><a href="category.html">collections</a></li>
+                            <li><a href="category.html">t-shirts</a></li>
+                            <li><a href="category.html">jens pants</a></li>
+                            <li><a href="category.html">sports shoes</a></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h4 class="dropdown__heading">women</h4>
+                        <ul>
+                            <li><a href="category.html">cocktail</a></li>
+                            <li><a href="category.html">sunglass</a></li>
+                            <li><a href="category.html">evening</a></li>
+                            <li><a href="category.html">footwear</a></li>
+                            <li><a href="category.html">furniture</a></li>
+                            <li><a href="category.html">hear care</a></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h4 class="dropdown__heading">accessories</h4>
+                        <ul>
+                            <li><a href="category.html">gagets</a></li>
+                            <li><a href="category.html">laptop</a></li>
+                            <li><a href="category.html">mobile</a></li>
+                            <li><a href="category.html">lifestyle</a></li>
+                            <li><a href="category.html">jens pants</a></li>
+                            <li><a href="category.html">sports items</a></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <div class="dropdown__images">
+                            <a href="detail.html"><img src="assets/images/promo/1.png" alt="image"></a>
+                            <a href="detail.html"><img src="assets/images/promo/2.png" alt="image"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- breadcrumb -->
+    <div class="breadcrumb__wrap">
+        <div class="cantainer">
+            <div class="Breadcrumb">
+                <a href="#">Home</a><span><img src="assets/images/icon/pev-arrow-icon.svg" alt="arrow"></span><a href="#">mobile accessories</a>
+            </div>
+        </div>
+    </div>
+    <!-- product Details -->
+    <div class="productDetail__wrap">
+        <div class="cantainer">
+            <div class="productImage__wrap">
+                <div class="main__image">
+                    <img src="assets/images/product-detail/1.jpg" alt="image">
+                    <div class="zoom__icon">
+                        <a href="#"><img src="assets/images/icon/zoom.png" alt="icon"></a>
+                    </div>
+                </div>
+                <div class="more__images owl-carousel owl-productDetailImageSlide">
+                    <a href="#">
+                        <img src="assets/images/product-detail/2.jpg" alt="image">
+                    </a>
+                    <a href="#">
+                        <img src="assets/images/product-detail/3.jpg" alt="image">
+                    </a>
+                    <a href="#">
+                        <img src="assets/images/product-detail/4.jpg" alt="image">
+                    </a>
+                    <a href="#">
+                        <img src="assets/images/product-detail/5.jpg" alt="image">
+                    </a>
+                </div>
+            </div>
+            <div class="product__detail">
+                <div class="product__code">
+                    <p>product code : <span>#4657</span></p>
+                </div>
+                <div class="product__name">
+                    <h3>white short checkered</h3>
+                </div>
+                <div class="review__wrap">
+                    <div class="review__star">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                          </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                          </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                          </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                          </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                          </svg>
+                    </div>
+                    <div class="review__count">
+                        <p>3 review</p>
+                    </div>
+                </div>
+                <div class="product__price">
+                    <span class="price__before">Rs 3500</span>
+                    <span class="price__after">Rs 2500</span>
+                </div>
+                <div class="product__availability">
+                    <p>availability : <span>In stock</span></p>
+                </div>
+                <div class="short__description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, se d mod tempor ncididunt ut abore et dolore magane aliqua. Quis ipsum pendisse ultrices gravida.</p>
+                </div>
+                <div class="product__spec">
+                    <!-- box -->
+                    <div class="field">
+                        <div class="label__wrap">
+                            <label for="">Color</label>
+                        </div>
+                        <div class="input__wrap">
+                            <select name="" id="">
+                            <option value="">Select Color</option>
+                        </select>
+                        </div>
+                    </div>
+                    <!-- box -->
+                    <div class="field">
+                        <div class="label__wrap">
+                            <label for="">Size</label>
+                        </div>
+                        <div class="input__wrap">
+                            <select name="" id="">
+                            <option value="">Select Size</option>
+                        </select>
+                        </div>
+                    </div>
+                    <!-- box -->
+                    <div class="field">
+                        <div class="label__wrap">
+                            <label for="">QTY</label>
+                        </div>
+                        <div class="input__wrap">
+                            <input type="number" value="1" id="product__quantity" disabled>
+                            <div class="counter__btn">
+                                <button onclick="productQuantity__Fuc(this)" class="add"><img src="assets/images/icon/caret-up-fill.svg" alt="arrow_icon"></button>
+                                <button onclick="productQuantity__Fuc(this)" class="substract"><img src="assets/images/icon/caret-down-fill.svg" alt="arrow_icon"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="purchase__warp">
+                    <a href="#" class="addToCard">add to cart</a>
+                    <a href="#"><img src="assets/images/icon/heart.svg" alt="icon"> add to wishlist</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Description / Specification / Reviews -->
+    <div class="product__more__details">
+        <div class="cantainer">
+            <!-- tab buttons -->
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'description')" id="defaultOpen">description</button>
+                <button class="tablinks" onclick="openCity(event, 'specification')">specification</button>
+                <button class="tablinks" onclick="openCity(event, 'reviews')">reviews</button>
+            </div>
+            <!-- tab 1 description -->
+            <div id="description" class="tabcontent">
+                <div class="box">
+                    <h1>perfectly done</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="description__grid">
+                    <div class="description__item">
+                        <div class="box">
+                            <h1>wireless</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        <div class="box">
+                            <h1>fresh design</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        <div class="box">
+                            <h1>fabolous sound</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sku__tags">
+                    <p>SKU: <span>54687621</span></p><span>/</span>
+                    <p>Tag: <a href="#">fast</a>, <a href="#">gaming</a>, <a href="#">strong</a></p>
+                </div>
+            </div>
+            <!-- tab 2 specification -->
+            <div id="specification" class="tabcontent">
+                <div class="box">
+                    <h2>technical spec</h2>
+                    <div class="spec__wrap">
+                        <!-- spec -->
+                        <div class="spec">
+                            <div class="spec__title">
+                                <p class="bold">sound</p>
+                            </div>
+                            <div class="spec__detail">
+                                <p>audio</p>
+                            </div>
+                        </div>
+                        <!-- spec -->
+                        <div class="spec">
+                            <div class="spec__title">
+                                <p class="bold">batteries</p>
+                            </div>
+                            <div class="spec__detail">
+                                <p>4x AAA</p>
+                            </div>
+                        </div>
+                        <!-- spec -->
+                        <div class="spec">
+                            <div class="spec__title">
+                                <p class="bold">series</p>
+                            </div>
+                            <div class="spec__detail">
+                                <p>mega 2</p>
+                            </div>
+                        </div>
+                        <!-- spec -->
+                        <div class="spec">
+                            <div class="spec__title">
+                                <p class="bold">max bass</p>
+                            </div>
+                            <div class="spec__detail">
+                                <p>10 levels</p>
+                            </div>
+                        </div>
+                        <!-- spec -->
+                        <div class="spec">
+                            <div class="spec__title">
+                                <p class="bold">inputs</p>
+                            </div>
+                            <div class="spec__detail">
+                                <p>3.5mm minijack</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h2>general</h2>
+                    <div class="spec__wrap">
+                        <!-- spec -->
+                        <div class="spec">
+                            <div class="spec__title">
+                                <p class="bold">weight</p>
+                            </div>
+                            <div class="spec__detail">
+                                <p>7.25 kg</p>
+                            </div>
+                        </div>
+                        <!-- spec -->
+                        <div class="spec">
+                            <div class="spec__title">
+                                <p class="bold">dimensions</p>
+                            </div>
+                            <div class="spec__detail">
+                                <p>90 X 60 X 90 cm</p>
+                            </div>
+                        </div>
+                        <!-- spec -->
+                        <div class="spec">
+                            <div class="spec__title">
+                                <p class="bold">size</p>
+                            </div>
+                            <div class="spec__detail">
+                                <p>one size fits all</p>
+                            </div>
+                        </div>
+                        <!-- spec -->
+                        <div class="spec">
+                            <div class="spec__title">
+                                <p class="bold">color</p>
+                            </div>
+                            <div class="spec__detail">
+                                <p>white</p>
+                            </div>
+                        </div>
+                        <!-- spec -->
+                        <div class="spec">
+                            <div class="spec__title">
+                                <p class="bold">guarantee</p>
+                            </div>
+                            <div class="spec__detail">
+                                <p>5 years</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- tab 3 reviews -->
+            <div id="reviews" class="tabcontent">
+                <div class="box review__ratio">
+                    <h2>based on 3 comments</h2>
+                    <h3>4.3<span>overall</span></h3>
+                    <!-- 1 -->
+                    <div class="ratio">
+                        <div class="box">
+                            <div class="review__star">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="bar">
+                                <div class="progress"></div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <span>1</span>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="ratio">
+                        <div class="box">
+                            <div class="review__star">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                  </svg>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="bar">
+                                <div class="progress"></div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <span>2</span>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="ratio">
+                        <div class="box">
+                            <div class="review__star">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                  </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                  </svg>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="bar">
+                                <div class="progress"></div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <span>0</span>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="ratio">
+                        <div class="box">
+                            <div class="review__star">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                  </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                  </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                  </svg>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="bar">
+                                <div class="progress"></div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <span>0</span>
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="ratio">
+                        <div class="box">
+                            <div class="review__star">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                  </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                  </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                  </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                  </svg>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="bar">
+                                <div class="progress"></div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <span>0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment__wrap">
+                    <!-- comment 1 -->
+                    <div class="comment__box">
+                        <div class="review__star">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                  </svg>
+                        </div>
+                        <p class="comment">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before
+                            final copy is available.</p>
+                        <p class="commentator__detail">
+                            <span class="commentator__name">john doe</span>
+                            <span class="date__time">10:54 19 February 2016</span>
+                        </p>
+                    </div>
+                    <!-- comment 2 -->
+                    <div class="comment__box">
+                        <div class="review__star">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                  </svg>
+                        </div>
+                        <p class="comment">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before
+                            final copy is available.</p>
+                        <p class="commentator__detail">
+                            <span class="commentator__name">anna kowalsky</span>
+                            <span class="date__time">55:44 13 February 2016</span>
+                        </p>
+                    </div>
+                    <!-- comment 3 -->
+                    <div class="comment__box">
+                        <div class="review__star">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                  </svg>
+                        </div>
+                        <p class="comment">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before
+                            final copy is available.</p>
+                        <p class="commentator__detail">
+                            <span class="commentator__name">peter wargner</span>
+                            <span class="date__time">07:32 8 February 2016</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- home info -->
+    <div class="home__info">
+        <div class="cantainer">
+            <div class="box">
+                <div class="left">
+                    <img src="assets/images/icon/rocket-icon.png" alt="icon">
+                </div>
+                <div class="right">
+                    <h3>nationwide deliveries</h3>
+                    <p>we are offering delivery all over pakistan</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <img src="assets/images/icon/support-icon.png" alt="icon">
+                </div>
+                <div class="right">
+                    <h3>online support</h3>
+                    <p>technical support</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <img src="assets/images/icon/spin-icon.png" alt="icon">
+                </div>
+                <div class="right">
+                    <h3>mondy back guarantee</h3>
+                    <p>7 days money back guarantee</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <img src="assets/images/icon/reward-icon.png" alt="icon">
+                </div>
+                <div class="right">
+                    <h3>member discount</h3>
+                    <p>upto 40% discount</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="cantainer">
+            <div class="box">
+                <div class="footerLogo__wrap">
+                    <a href="#"><img src="assets/images/footer-logo.png" alt="logo"></a>
+                </div>
+                <h4 class="footer__heading">address:</h4>
+                <p>Office # 401, 4th floor dawood center plot 124-R, P.E.C.H.S Tariq Road</p>
+            </div>
+            <div class="box">
+                <h4 class="footer__heading">Quick Link</h4>
+                <ul>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">terms & conditions</a></li>
+                    <li><a href="#">shipping policy</a></li>
+                    <li><a href="#">return policy</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h4 class="footer__heading">Company</h4>
+                <ul>
+                    <li><a href="#">vendor registration</a></li>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">contact us</a></li>
+                    <li><a href="#">sitemap</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h4 class="footer__heading">Top Category</h4>
+                <ul>
+                    <li><a href="category.html">fashion</a></li>
+                    <li><a href="category.html">electronics</a></li>
+                    <li><a href="category.html">home & furniture</a></li>
+                    <li><a href="category.html">mobile phones</a></li>
+                    <li><a href="category.html">grocery</a></li>
+                    <li><a href="category.html">health & beauty</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h4 class="footer__heading">social</h4>
+                <ul class="footerSocial__icon">
+                    <li>
+                        <a href="#"><img src="assets/images/icon/facebook-f.svg" alt="icon"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="assets/images/icon/instagram.svg" alt="icon"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="assets/images/icon/whatsapp.svg" alt="icon"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="assets/images/icon/twitter.svg" alt="icon"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bottom__bar">
+        <div class="cantainer">
+            <div class="box">
+                <p>Copyrite © 2022 Shop Me 360, All rights reserved</p>
+            </div>
+            <div class="box">
+                <p>Powered by <a href="#">waze tech</a></p>
+            </div>
+            <div class="box">
+                <a href="#"><img src="assets/images/icon/payment-method.png" alt="image"></a>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<!-- owl carousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<!-- js -->
+<script src="assets/js/carousel_Setting.js"></script>
+<script src="assets/js/logic.js"></script>
+<script>
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script>
+
+</html>
