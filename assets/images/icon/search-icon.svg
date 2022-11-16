@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" width="18" height="18">
+	<title>New Project</title>
+	<defs>
+		<image  width="18" height="18" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAMAAABhEH5lAAAAAXNSR0IB2cksfwAAANVQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////fPoPwAAAAEd0Uk5TAF/M/89jH9ixlq/93SQZ/F5Z2yYg4lZaUWD58emtpgSGiA+rpAXe9+/rW1VLZOEbwB5XUpQl4PSslc2RkmbZ3GoCDQOno/4mDzoFAAAApklEQVR4nGWQxxLCMBBDDYLQe2gJPfTem0Mv//9J2I4xnkEHrebtjg5LCJPPDyAQJEpGCAhHojHEE5IkU0iLkAEMD2WRk0sTeTELKKqKEsriyPq1ErvCHVUN1VDnqKGhJlocORpqo8O829NQf8B9iJEiY0zEnMKUZGbNvbAAliKsgLVcbrbY7Q+OjSOF++04ndknLldCKKgqvt0fYmp3Si6ef+z1/gDBxQvJ+0zTWQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="3844467_magnifier_search_zoom_icon copy" href="#img1" x="0" y="0"/>
+</svg>
